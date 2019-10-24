@@ -16,4 +16,41 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ScintillaNET\x64\License.txt" />
+    <None Remove="ScintillaNET\x64\SciLexer.dll" />
+    <None Remove="ScintillaNET\x64\SciLexer.dll.gz" />
+    <None Remove="ScintillaNET\x64\SciLexer.exp" />
+    <None Remove="ScintillaNET\x64\SciLexer.lib" />
+    <None Remove="ScintillaNET\x64\SciLexer.pdb" />
+    <None Remove="ScintillaNET\x64\version.txt" />
+    <None Remove="ScintillaNET\x86\License.txt" />
+    <None Remove="ScintillaNET\x86\SciLexer.dll" />
+    <None Remove="ScintillaNET\x86\SciLexer.dll.gz" />
+    <None Remove="ScintillaNET\x86\SciLexer.exp" />
+    <None Remove="ScintillaNET\x86\SciLexer.lib" />
+    <None Remove="ScintillaNET\x86\SciLexer.pdb" />
+    <None Remove="ScintillaNET\x86\version.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ScintillaNET\x64\License.txt" />
+    <Content Include="ScintillaNET\x64\SciLexer.dll" />
+    <Content Include="ScintillaNET\x64\SciLexer.exp" />
+    <Content Include="ScintillaNET\x64\SciLexer.lib" />
+    <Content Include="ScintillaNET\x64\SciLexer.pdb" />
+    <Content Include="ScintillaNET\x64\version.txt" />
+    <Content Include="ScintillaNET\x86\License.txt" />
+    <Content Include="ScintillaNET\x86\SciLexer.dll" />
+    <Content Include="ScintillaNET\x86\SciLexer.exp" />
+    <Content Include="ScintillaNET\x86\SciLexer.lib" />
+    <Content Include="ScintillaNET\x86\SciLexer.pdb" />
+    <Content Include="ScintillaNET\x86\version.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ScintillaNET\x64\SciLexer.dll.gz" />
+    <EmbeddedResource Include="ScintillaNET\x86\SciLexer.dll.gz" />
+  </ItemGroup>
+
 </Project>
